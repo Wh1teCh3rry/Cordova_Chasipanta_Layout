@@ -15,53 +15,53 @@
             <!-- Negro -->
             <Label 
                 
-               FontSize="18"
-               WidthRequest="1100"
-               BackgroundColor="Black"
-                />
+                   FontSize="18"
+                   WidthRequest="1100"
+                   BackgroundColor="Black"
+                    />
             <!-- Verde -->
             <Label
-                FlexLayout.AlignSelf="Start"
+                   FlexLayout.AlignSelf="Start"
                    FontSize="18"
                    WidthRequest="20"
                    BackgroundColor="Green"
                  />
         </FlexLayout>
-        <!-- Body -->
+            <!-- Body -->
         <FlexLayout FlexLayout.Grow="1">
             <!-- Content -->
             <Label 
                    FontSize="18"
-                WidthRequest="200"
+                   WidthRequest="200"
                    BackgroundColor="Gray"
-                   FlexLayout.Grow="1" />
-
-            </FlexLayout>
+                    FlexLayout.Grow="1"
+                    />
+        </FlexLayout>
 
         <FlexLayout FlexLayout.Grow="1">
          
-            <!-- Azul -->
-            <Label
-                FlexLayout.AlignSelf="End"
-               FontSize="18"
-               WidthRequest="20"
-               BackgroundColor="Blue"
-             />
-            <!-- Negro -->
-            <Label 
-                
-               FontSize="18"
-               WidthRequest="1100"
-               BackgroundColor="Black"
-                />
-            <!-- Amarillo -->
-        <Label
-            FlexLayout.AlignSelf="End"
+                <!-- Azul -->
+                <Label
+                    FlexLayout.AlignSelf="End"
                    FontSize="18"
                    WidthRequest="20"
-                   BackgroundColor="Yellow"
+                   BackgroundColor="Blue"
                  />
+                <!-- Negro -->
+                <Label 
+                
+                   FontSize="18"
+                   WidthRequest="1100"
+                   BackgroundColor="Black"
+                    />
+                <!-- Amarillo -->
+                <Label
+                        FlexLayout.AlignSelf="End"
+                       FontSize="18"
+                       WidthRequest="20"
+                       BackgroundColor="Yellow"
+                     />
+            </FlexLayout>
         </FlexLayout>
-    </FlexLayout>
     </ContentPage>
 

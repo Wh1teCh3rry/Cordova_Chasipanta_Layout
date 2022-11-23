@@ -4,15 +4,29 @@
              x:Class="Cordova_Chasipanta_Layout.MainPage">
 
     <FlexLayout Direction="Column">
-
+             <FlexLayout FlexLayout.Grow="1">
             <!-- Rojo -->
-            <Label 
+            <Label
                FontSize="18"
                WidthRequest="20"
                BackgroundColor="Red"
                 />
-
-            <!-- Body -->
+            <!-- Negro -->
+            <Label 
+                
+               FontSize="18"
+               WidthRequest="1100"
+               BackgroundColor="Black"
+                />
+            <!-- Verde -->
+            <Label
+            
+                   FontSize="18"
+                   WidthRequest="20"
+                   BackgroundColor="Green"
+                 />
+        </FlexLayout>
+        <!-- Body -->
             <FlexLayout FlexLayout.Grow="1">
 
             <!-- Negro -->
@@ -24,41 +38,35 @@
             <!-- Content -->
             <Label 
                    FontSize="18"
+                WidthRequest="200"
                    BackgroundColor="Gray"
                    FlexLayout.Grow="1" />
 
-            <!-- Navigation items-->
-                    <BoxView FlexLayout.Basis="50"
-                         FlexLayout.Order="-1"
-                         Color="Blue" />
-
-                    <BoxView FlexLayout.Basis="50"
-                         Color="Green" />
-
             </FlexLayout>
 
+        <FlexLayout FlexLayout.Grow="1">
+         
             <!-- Azul -->
             <Label
                FontSize="18"
                WidthRequest="20"
                BackgroundColor="Blue"
              />
-        <!-- Verde -->
-        <Label
-            
-                   FontSize="18"
-                   WidthRequest="20"
-                   BackgroundColor="Green"
-                 />
-
-        <!-- Amarillo -->
+            <!-- Negro -->
+            <Label 
+                
+               FontSize="18"
+               WidthRequest="1100"
+               BackgroundColor="Black"
+                />
+            <!-- Amarillo -->
         <Label
             
                    FontSize="18"
                    WidthRequest="20"
                    BackgroundColor="Yellow"
                  />
-
+        </FlexLayout>
     </FlexLayout>
     </ContentPage>
 

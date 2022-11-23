@@ -15,19 +15,25 @@
             <!-- Body -->
             <FlexLayout FlexLayout.Grow="1">
 
-                <!-- Content -->
-                <Label 
+            <!-- Negro -->
+            <Label 
+               FontSize="18"
+               WidthRequest="20"
+               BackgroundColor="Black"
+                />
+            <!-- Content -->
+            <Label 
                    FontSize="18"
                    BackgroundColor="Gray"
                    FlexLayout.Grow="1" />
 
-                <!-- Navigation items-->
-                <BoxView FlexLayout.Basis="50"
-                     FlexLayout.Order="-1"
-                     Color="Blue" />
+            <!-- Navigation items-->
+                    <BoxView FlexLayout.Basis="50"
+                         FlexLayout.Order="-1"
+                         Color="Blue" />
 
-                <BoxView FlexLayout.Basis="50"
-                     Color="Green" />
+                    <BoxView FlexLayout.Basis="50"
+                         Color="Green" />
 
             </FlexLayout>
 
@@ -37,20 +43,22 @@
                WidthRequest="20"
                BackgroundColor="Blue"
              />
-
         <!-- Verde -->
         <Label
-               FontSize="18"
-               WidthRequest="20"
-               BackgroundColor="Green"
-             />
-        
+            
+                   FontSize="18"
+                   WidthRequest="20"
+                   BackgroundColor="Green"
+                 />
+
         <!-- Amarillo -->
         <Label
-               FontSize="18"
-               WidthRequest="20"
-               BackgroundColor="Yellow"
-             />
+            
+                   FontSize="18"
+                   WidthRequest="20"
+                   BackgroundColor="Yellow"
+                 />
+
     </FlexLayout>
     </ContentPage>
 

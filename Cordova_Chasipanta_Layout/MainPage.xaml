@@ -4,9 +4,10 @@
              x:Class="Cordova_Chasipanta_Layout.MainPage">
 
     <FlexLayout Direction="Column">
-             <FlexLayout FlexLayout.Grow="1">
+        <FlexLayout FlexLayout.Grow="1">
             <!-- Rojo -->
             <Label
+               FlexLayout.AlignSelf="Start"
                FontSize="18"
                WidthRequest="20"
                BackgroundColor="Red"
@@ -20,21 +21,14 @@
                 />
             <!-- Verde -->
             <Label
-            
+                FlexLayout.AlignSelf="Start"
                    FontSize="18"
                    WidthRequest="20"
                    BackgroundColor="Green"
                  />
         </FlexLayout>
         <!-- Body -->
-            <FlexLayout FlexLayout.Grow="1">
-
-            <!-- Negro -->
-            <Label 
-               FontSize="18"
-               WidthRequest="20"
-               BackgroundColor="Black"
-                />
+        <FlexLayout FlexLayout.Grow="1">
             <!-- Content -->
             <Label 
                    FontSize="18"
@@ -48,6 +42,7 @@
          
             <!-- Azul -->
             <Label
+                FlexLayout.AlignSelf="End"
                FontSize="18"
                WidthRequest="20"
                BackgroundColor="Blue"
@@ -61,7 +56,7 @@
                 />
             <!-- Amarillo -->
         <Label
-            
+            FlexLayout.AlignSelf="End"
                    FontSize="18"
                    WidthRequest="20"
                    BackgroundColor="Yellow"
